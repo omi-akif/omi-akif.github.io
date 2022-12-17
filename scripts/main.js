@@ -24,7 +24,7 @@ async function open_terminal(){
 
   createText('--')
 
-  createText('This is Akif here! What you are looking here is my portfolio.')
+  createText('This is Akif here! What you are looking at is my portfolio.')
 
   createText("Type 'help' if you want to know how to know more about me.")
 
@@ -70,6 +70,7 @@ async function getInputValue(){
   if(value === "help"){
     trueValue(value);
     
+    createText('Type the commands below in the prompt to know me in detail.');
     createCode("projects", "This is my GitHub page. You can follow me here!d");
     createCode("about me", "If you want to know Who am i and what do i do...");
     createCode("social", "I am an introvert guy. But I do have a social life!");
@@ -82,7 +83,7 @@ async function getInputValue(){
   }
   else if(value === "about me"){
     trueValue(value);
-    createText("I am an AI trainer working on developing and training an AI Chatbot known as Alime of Alibaba. My focus is to do Deep Learning based dialogue model research, chatbot development, NLP, and provide insights into the the development of the the Chatbot. I am also currently leading a Chatbot project in the entire South Asia called ASHA, which is about creating a transformer based dialogue models in an E-commerce context and do research on it. I am also researching on word2vec models to make scalable Chatbots in Bangladesh that can help customers with information and give a unique experience to retain customers.")
+    createText("I am an Artificial Intelligence trainer working at Daraz to develop and train an AI Chatbot known as Alime of Alibaba. My focus is to do Deep Learning based dialogue model research, chatbot development, NLP, and provide insights into the the development of the the Chatbot. I am also currently leading a Chatbot project in the entire South Asia called ASHA (Automated Shopping and Helping Assistant), which is about creating a transformer based dialogue models in an E-commerce context and do research on it. In addition, I am researching on word2vec models to make scalable Chatbots in Bangladesh that can help customers with information and give a unique experience to retain customers.")
   }
   else if(value === "social"){
     trueValue(value);
